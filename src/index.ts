@@ -12,7 +12,7 @@ type Config = {
   rateLimit: number;
 };
 
-export function RateLimit(config?: Config) {
+export default function RateLimit(config?: Config) {
   const recordTable: RecordTable = {};
   // Rate limit is set to 1000 by default.
   const limit = (config && config.rateLimit) || 1000;

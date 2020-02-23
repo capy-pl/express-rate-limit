@@ -1,6 +1,6 @@
 {
   "name": "express-rate-limit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Limit number of requests in a given period.",
   "main": "dist/index.js",
   "scripts": {
