@@ -1,4 +1,4 @@
-import { RateLimit } from "../src";
+import RateLimit from "../src";
 import express from "express";
 import request from "supertest";
 
